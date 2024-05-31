@@ -8,6 +8,9 @@ export default defineConfig({
 	server: {
 		port: 5050,
 	},
+	output: {
+		assetPrefix: "/",
+	},
 	html: {
 		template: "./public/index.html",
 	},
